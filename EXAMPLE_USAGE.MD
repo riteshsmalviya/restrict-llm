@@ -1,10 +1,10 @@
-# 🌍 restrict-llm — Travel Itinerary Example
+#  restrict-llm — Travel Itinerary Example
 
 This example demonstrates using **restrict-llm** as a proxy to generate a structured travel itinerary from an LLM, with JSON validation enforced by the proxy.
 
 ---
 
-## 📤 Request
+##  Request
 
 **Endpoint:** `POST /v1/restrictllm/generate`
 
@@ -48,7 +48,7 @@ This example demonstrates using **restrict-llm** as a proxy to generate a struct
 
 ---
 
-## 📥 Response
+##  Response
 
 ```json
 {
@@ -152,7 +152,7 @@ This example demonstrates using **restrict-llm** as a proxy to generate a struct
 
 ---
 
-## 💡 Tips for Structured JSON Responses
+## Tips for Structured JSON Responses
 
 1. **Add a `system` message instructing JSON-only output** — Prevents the model from adding explanatory text around the JSON.
 2. **Embed the full JSON schema in the `prompt`** — The model knows exactly which fields to populate and in what shape.
